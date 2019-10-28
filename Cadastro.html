@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/Cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="img">
+    <img src="Imgs/logo-tlou.png" alt="Logo">
+    </div>
+    
+    <div class="criar_cadastro">
+
+        <form action="#">
+            <h3>Cadastre-se</h3>
+            <div class="erro" id="erro_nome"></div>
+            <input class="erro" type="text" id="nome" placeholder="Nome"><br>
+            <input type="text" id= "sobrenome" placeholder="Sobrenome"><br>
+            <input type="date"><br>
+            <input type="text" id="userName" placeholder="Nome de Usuário"><br>
+            <input type="password" id="senha" placeholder="Senha"><br>
+            <input type="password" id="cSenha" placeholder="Confirmar Senha"><br>
+            <input type="text" id="email" placeholder="E-mail"><br>
+            <input type="text" id="cEmail" placeholder="Confirmar E-mail"><br>
+            <button class="button" onclick="verificar()">Criar</button><br>
+        </form>
+
+        <a class="visit" href="Lobby.html">Visite o site!</a>
+
+        <a class="login" href="Index.html">Já possuiu conta?</a>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    function verificar() {
+        if(nome.value.length <= 3){
+
+        }
+    }
+</script>

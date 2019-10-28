@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/Login.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="img">
+    <img src="Imgs/logo-tlou.png" alt="Logo">
+    </div>
+    
+    <div class="login">
+
+        <form action="#">
+            <h3>Faça Seu Login</h3>
+            <input type="text" id="user" placeholder="Usuário"><br>
+            <input type="password" id="senha" placeholder="Senha"><br>
+            <button onclick='verificar()' class="button">Entrar</button><br>
+        </form>
+
+        <a class="visit" href="Lobby.html">Visite o site!</a>
+
+        <a class="cadastro" href="Cadastro.html">Cadastre-se!</a>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    function verificar() {
+        if(user.value.endsWith('@bandtec.com.br') == true && senha.value.length > 6){
+            window.location.href = 'Lobby.html';
+        }
+        else{
+            alert('Usuário e/ou senha incorretos')
+        }        
+
+    }
+</script>

@@ -1,0 +1,45 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100(vh);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100(vh);
+    background: URL(../Imgs/TLOU_part2_6.png) 0% 0% no-repeat;
+    background-size: cover;
+    display: table;
+}
+
+.part2{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.navBar{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}
+
+ul{
+    display: inline-flex;
+
+}
+
+a{
+    padding-top: 0.25px;
+    padding-right: 165px;
+    text-decoration: none;
+    height: 60px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 80px;
+}
+
+.navBarLi {
+    float: left;
+}
